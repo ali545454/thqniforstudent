@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منصة سكن الطلاب</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Css/main.css">
+</head>
+<body class="lateef-regular">
+  <!-- Header -->
+  <header class="text-white">
+    <div class="container-fluid">
+      <!-- الشريط العلوي (الشعار والبحث) -->
+      <div class="top-bar d-flex justify-content-between align-items-center p-3 bg-white">
+        <!-- الشعار -->
+        <a class="navbar-brand" href="#">منصة سكني</a>
+  
+        <!-- حقل البحث -->
+        <form class="d-flex" role="search" style="direction: rtl;">
+          <input class="form-control rounded-0 search-h-input" type="search" placeholder="البحث عن" aria-label="Search">
+          <button class="btn rounded-0 search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+  
+      <!-- شريط الأيقونات -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <!-- الأيقونات -->
+        <div class="container p-0">
+          <ul class="navbar-nav w-100 d-flex justify-content-around">
+            <!-- أيقونة الرئيسية -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa-solid fa-house-chimney"></i>
+              </a>
+            </li>
+            <!-- أيقونة الرئيسية -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa-solid fa-house-chimney"></i>
+              </a>
+            </li>
+            <!-- أيقونة الرئيسية -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa-solid fa-house-chimney"></i>
+              </a>
+            </li>
+            <!-- أيقونة تسجيل الدخول -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-right-to-bracket"></i>
+              </a>
+            </li>
+            <!-- أيقونة عرض الشقق -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-house-user"></i>
+              </a>
+            </li>
+            <!-- أيقونة الطلاب -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center py-5">
+    <div class="container">
+      <h2 class="lateef-bold mb-4">مرحبًا بكم في منصة سكن الطلاب</h2>
+      <p class="lateef-medium mb-4">ابحث عن السكن المناسب لك!</p>
+      <div class="search-bar bg-white p-3 rounded">
+        <input type="text" class="form-control mb-3" placeholder="ابحث عن شقة...">
+        <button class="btn btn-primary w-100">بحث</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Apartments -->
+  <section class="featured-apartments py-5">
+    <div class="container">
+      <h3 class="lateef-bold text-center mb-4">شقق مميزة</h3>
+      <div class="row">
+        <!-- Apartment Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="شقة 1">
+            <div class="card-body">
+              <h5 class="card-title lateef-semibold">شقة في وسط المدينة</h5>
+              <p class="card-text lateef-regular">شقة نظيفة وقريبة من الجامعة.</p>
+              <p class="card-text lateef-medium">السعر: 2000 جنيه</p>
+              <p class="card-text lateef-medium">التقييم: ★★★★☆</p>
+            </div>
+          </div>
+        </div>
+        <!-- Apartment Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="شقة 2">
+            <div class="card-body">
+              <h5 class="card-title lateef-semibold">شقة في حي السلام</h5>
+              <p class="card-text lateef-regular">شقة مريحة وهادئة.</p>
+              <p class="card-text lateef-medium">السعر: 1500 جنيه</p>
+              <p class="card-text lateef-medium">التقييم: ★★★★★</p>
+            </div>
+          </div>
+        </div>
+        <!-- Apartment Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="شقة 3">
+            <div class="card-body">
+              <h5 class="card-title lateef-semibold">شقة في حي الجامعة</h5>
+              <p class="card-text lateef-regular">شقة حديثة ومجهزة.</p>
+              <p class="card-text lateef-medium">السعر: 2500 جنيه</p>
+              <p class="card-text lateef-medium">التقييم: ★★★☆☆</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-white py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- القسم الأول: معلومات الاتصال -->
+        <div class="col-md-3 col-sm-6 mb-4 footer-column">
+          <h5 class="lateef-bold mb-3">تواصل معنا</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <i class="fas fa-envelope me-2"></i>
+              <span class="lateef-regular">example@email.com</span>
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-phone me-2"></i>
+              <span class="lateef-regular">+20 123 456 7890</span>
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-map-marker-alt me-2"></i>
+              <span class="lateef-regular">العنوان: مدينة أسيوط، مصر</span>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- القسم الثاني: روابط سريعة -->
+        <div class="col-md-3 col-sm-6 mb-4 footer-column">
+          <h5 class="lateef-bold mb-3">روابط سريعة</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <i class="fas fa-home me-2"></i>
+              <a href="index.html" class="text-white lateef-regular">الرئيسية</a>
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-info-circle me-2"></i>
+              <a href="about.html" class="text-white lateef-regular">عن الموقع</a>
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-building me-2"></i>
+              <a href="apartments.html" class="text-white lateef-regular">عرض الشقق</a>
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-envelope me-2"></i>
+              <a href="contact.html" class="text-white lateef-regular">اتصل بنا</a>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- القسم الثالث: وسائل التواصل الاجتماعي -->
+        <div class="col-md-3 col-sm-6 mb-4 footer-column">
+          <h5 class="lateef-bold mb-3">تابعنا</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#" class="text-white lateef-regular">
+                <i class="fab fa-facebook me-2"></i>فيسبوك
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white lateef-regular">
+                <i class="fab fa-twitter me-2"></i>تويتر
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white lateef-regular">
+                <i class="fab fa-instagram me-2"></i>إنستجرام
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white lateef-regular">
+                <i class="fab fa-youtube me-2"></i>يوتيوب
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- القسم الرابع: دعنا نساعدك -->
+        <div class="col-md-3 col-sm-6 mb-4 footer-column">
+          <h5 class="lateef-bold mb-3">دعنا نساعدك</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#" class="text-white lateef-regular">
+                <i class="fas fa-file-alt me-2"></i>سياسات الموقع
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white lateef-regular">
+                <i class="fas fa-download me-2"></i>تحميل التطبيق
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white lateef-regular">
+                <i class="fas fa-question-circle me-2"></i>المساعدة
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- حقوق النشر -->
+      <div class="text-center mt-4 copyrights">
+        <p class="m-0 lateef-regular">جميع الحقوق محفوظة لدي منصة سكني &copy; 2025</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+:root {
+    --dark-blue-color: #213555;
+    --white-color: #f4f2ee ;
+    --search-clor: #edf3f8;
+    --dark-blue-hash:#213555ab;
+  }
+  
+  body {
+    font-family: "Rubik", serif;
+    color: var(--white-color);
+  }
+  
+  .lateef-extralight { font-weight: 200; }
+  .lateef-light { font-weight: 300; }
+  .lateef-regular { font-weight: 400; }
+  .lateef-medium { font-weight: 500; }
+  .lateef-semibold { font-weight: 600; }
+  .lateef-bold { font-weight: 700; }
+  .lateef-extrabold { font-weight: 800; }
+
+.icon-margin{
+    margin: 10px !important;
+}
+
+/* Header */
+header .container-fluid{
+  border-bottom: solid #bebebe33 1px;
+}
+header a , header i{
+  color:var(--dark-blue-hash) !important;
+}
+header i{
+  font-size: 20px;
+  cursor: pointer;
+}
+header .navbar-nav{
+  width: 100%;
+  right: 0;
+}
+nav .nav-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  cursor: pointer;
+}
+.nav-box a{
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+.nav-box a.active ,.nav-box i.active{
+  color: var(--dark-blue-color) !important;
+}
+.nav-box .box-link:hover{
+  color: var(--dark-blue-color) !important;
+}
+header .dropdown-menu{
+  background: var(--dark-blue-color);
+}
+header .container-fluid{
+background: #fff;
+}
+header .search-btn{
+  background-color: var(--search-clor);
+}
+header .search-h-input{
+  background-color: #edf3f8;
+  border: none;
+}
+header .search-h-input:focus{
+  border: solid 2px #000;
+  background-color: var(--search-clor);
+}
+header .search-btn i{
+  color: var(--dark-blue-color);
+}
+
+
+/* Footer */
+footer{
+  font-size: 11px;
+}
+footer h5{
+  margin-right: 40px;
+}
+footer .row{
+  display: flex;
+  width: 100%;
+  flex-direction: row !important;
+}
+footer .row .foot-bx {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+hr{
+  color: var(--white-color);
+}
+
+/* * */
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* محاذاة رأسيًا في المنتصف */
+  align-items: center; /* محاذاة أفقيًا في المنتصف */
+  text-align: center; /* محاذاة النص في المنتصف */
+}
+footer .copyrights p{
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+/* تحسين الـ Navbar في شاشات الموبايل */
+/* تنسيق الشريط العلوي */
+.top-bar {
+  border-bottom: 1px solid #e4e4e4; /* خط فاصل */
+}
+
+.top-bar .navbar-brand {
+  font-size: 1.5rem; /* حجم الشعار */
+  color: var(--dark-blue-color); /* لون الشعار */
+}
+
+.top-bar .search-h-input {
+  background-color: var(--search-clor); /* لون خلفية حقل البحث */
+  border: none;
+  font-size: 14px; /* حجم نص البحث */
+}
+
+.top-bar .search-btn {
+  background-color: var(--search-clor); /* لون خلفية زر البحث */
+  border: none;
+}
+
+.top-bar .search-btn i {
+  color: var(--dark-blue-color); /* لون أيقونة البحث */
+}
+
+/* تنسيق شريط الأيقونات */
+.navbar-nav {
+  background-color: #fff; /* خلفية شريط الأيقونات */
+  border-top: 1px solid #e4e4e4; /* خط فاصل */
+}
+
+.nav-item {
+  padding: 10px 0; /* تباعد داخلي للأيقونات */
+}
+
+.nav-link {
+  color: #666; /* لون الأيقونات غير النشطة */
+  font-size: 1.2rem; /* حجم الأيقونات */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link.active {
+  color: var(--dark-blue-color); /* لون الأيقونة النشطة */
+}
+
+/* تحسين التصميم في شاشات الموبايل */
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 10px; /* تقليل التباعد */
+  }
+
+  .top-bar .navbar-brand {
+    font-size: 1.2rem; /* حجم أصغر للشعار */
+  }
+
+  .top-bar .search-h-input {
+    width: 150px; /* تقليل عرض حقل البحث */
+  }
+
+  .nav-link {
+    font-size: 1rem; /* حجم أصغر للأيقونات */
+  }
+  header .navbar-nav{
+    flex-direction: row;
+    width: 100% !important;
+  }
+}
